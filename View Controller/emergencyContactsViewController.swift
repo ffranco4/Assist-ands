@@ -9,9 +9,9 @@
 import UIKit
 
 class emergencyContactsViewController: UIViewController, UITableViewDataSource {
-
+//connecting the tableview to the View Controller as an outlet
     @IBOutlet weak var emergencyContacts: UITableView!
-   
+   //items are what we are listing
     var items = [ "911" , "Mom" , "Dad" , "Doctor Ramoray" ]
     
     override func viewDidLoad() {
@@ -19,7 +19,7 @@ class emergencyContactsViewController: UIViewController, UITableViewDataSource {
        
 
             emergencyContacts.dataSource = self
-    }
+    }   // named table view cell "Cell"
     func tableView(_ tableview: UITableView, numberOfRowsInSection section: Int) -> Int {
             return items.count
         }

@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F411B2624E38336008ECCA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F411B2524E38336008ECCA5 /* Assets.xcassets */; };
 		3FA0361224DB220A00244360 /* AssistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0361124DB220A00244360 /* AssistanceViewController.swift */; };
-		3FA0361424DB25C300244360 /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0361324DB25C300244360 /* DoctorsViewController.swift */; };
-		3FA0361624DB26A800244360 /* HealthAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0361524DB26A800244360 /* HealthAppViewController.swift */; };
 		3FA0361A24DDD45000244360 /* emergencyContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0361924DDD45000244360 /* emergencyContactsViewController.swift */; };
 		3FAC3D7624D0A83F00BCA3B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D7524D0A83F00BCA3B9 /* AppDelegate.swift */; };
 		3FAC3D7824D0A83F00BCA3B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D7724D0A83F00BCA3B9 /* SceneDelegate.swift */; };
-		3FAC3D7A24D0A83F00BCA3B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D7924D0A83F00BCA3B9 /* ViewController.swift */; };
 		3FAC3D7D24D0A83F00BCA3B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC3D7B24D0A83F00BCA3B9 /* Main.storyboard */; };
 		3FAC3D8024D0A83F00BCA3B9 /* Assist_ands.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D7E24D0A83F00BCA3B9 /* Assist_ands.xcdatamodeld */; };
 		3FAC3D8524D0A84000BCA3B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC3D8324D0A84000BCA3B9 /* LaunchScreen.storyboard */; };
 		3FAC3D9024D0A84000BCA3B9 /* Assist_andsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D8F24D0A84000BCA3B9 /* Assist_andsTests.swift */; };
 		3FAC3D9B24D0A84000BCA3B9 /* Assist_andsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAC3D9A24D0A84000BCA3B9 /* Assist_andsUITests.swift */; };
 		3FAC3DB124D2072200BCA3B9 /* IMG_4642.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FAC3DAD24D2057200BCA3B9 /* IMG_4642.jpg */; };
+		3FDC870E24E1C63C001B2141 /* DoctorsContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC870D24E1C63C001B2141 /* DoctorsContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F411B2524E38336008ECCA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA0361124DB220A00244360 /* AssistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceViewController.swift; sourceTree = "<group>"; };
-		3FA0361324DB25C300244360 /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
-		3FA0361524DB26A800244360 /* HealthAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAppViewController.swift; sourceTree = "<group>"; };
 		3FA0361924DDD45000244360 /* emergencyContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergencyContactsViewController.swift; sourceTree = "<group>"; };
 		3FAC3D7224D0A83F00BCA3B9 /* Assist-ands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assist-ands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FAC3D7524D0A83F00BCA3B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FAC3D7724D0A83F00BCA3B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FAC3D7924D0A83F00BCA3B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FAC3D7C24D0A83F00BCA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FAC3D7F24D0A83F00BCA3B9 /* Assist_ands.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assist_ands.xcdatamodel; sourceTree = "<group>"; };
 		3FAC3D8424D0A84000BCA3B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +60,7 @@
 		3FAC3DAC24D2057200BCA3B9 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		3FAC3DAD24D2057200BCA3B9 /* IMG_4642.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4642.jpg; sourceTree = "<group>"; };
 		3FAC3DAF24D2057200BCA3B9 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		3FDC870D24E1C63C001B2141 /* DoctorsContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FAC3D6924D0A83F00BCA3B9 = {
+		3F411B2724E38934008ECCA5 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
 				3FA0361924DDD45000244360 /* emergencyContactsViewController.swift */,
+				3FDC870D24E1C63C001B2141 /* DoctorsContactsViewController.swift */,
+				3FA0361124DB220A00244360 /* AssistanceViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		3FAC3D6924D0A83F00BCA3B9 = {
+			isa = PBXGroup;
+			children = (
+				3F411B2724E38934008ECCA5 /* View Controller */,
 				3FAC3D7424D0A83F00BCA3B9 /* Assist-ands */,
 				3FAC3D8E24D0A84000BCA3B9 /* Assist-andsTests */,
 				3FAC3D9924D0A84000BCA3B9 /* Assist-andsUITests */,
@@ -116,11 +124,8 @@
 			children = (
 				3FAC3D7524D0A83F00BCA3B9 /* AppDelegate.swift */,
 				3FAC3D7724D0A83F00BCA3B9 /* SceneDelegate.swift */,
-				3FAC3D7924D0A83F00BCA3B9 /* ViewController.swift */,
 				3FAC3D7B24D0A83F00BCA3B9 /* Main.storyboard */,
-				3FA0361524DB26A800244360 /* HealthAppViewController.swift */,
-				3FA0361324DB25C300244360 /* DoctorsViewController.swift */,
-				3FA0361124DB220A00244360 /* AssistanceViewController.swift */,
+				3F411B2524E38336008ECCA5 /* Assets.xcassets */,
 				3FAC3D8324D0A84000BCA3B9 /* LaunchScreen.storyboard */,
 				3FAC3D8624D0A84000BCA3B9 /* Info.plist */,
 				3FAC3DB024D2057200BCA3B9 /* Assist-ands Logo */,
@@ -290,6 +295,7 @@
 			files = (
 				3FAC3DB124D2072200BCA3B9 /* IMG_4642.jpg in Resources */,
 				3FAC3D8524D0A84000BCA3B9 /* LaunchScreen.storyboard in Resources */,
+				3F411B2624E38336008ECCA5 /* Assets.xcassets in Resources */,
 				3FAC3D7D24D0A83F00BCA3B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,11 +323,9 @@
 			files = (
 				3FAC3D8024D0A83F00BCA3B9 /* Assist_ands.xcdatamodeld in Sources */,
 				3FA0361224DB220A00244360 /* AssistanceViewController.swift in Sources */,
-				3FA0361424DB25C300244360 /* DoctorsViewController.swift in Sources */,
-				3FAC3D7A24D0A83F00BCA3B9 /* ViewController.swift in Sources */,
+				3FDC870E24E1C63C001B2141 /* DoctorsContactsViewController.swift in Sources */,
 				3FAC3D7624D0A83F00BCA3B9 /* AppDelegate.swift in Sources */,
 				3FA0361A24DDD45000244360 /* emergencyContactsViewController.swift in Sources */,
-				3FA0361624DB26A800244360 /* HealthAppViewController.swift in Sources */,
 				3FAC3D7824D0A83F00BCA3B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,8 @@
 //  Copyright © 2020 Student. All rights reserved.
 //
 
+
+//imported mapkit
 import UIKit
 import CoreLocation
 import MapKit
@@ -22,12 +24,12 @@ class AssistanceViewController: UIViewController {
         
         setUpCoreLocation()
     }
-
+//set up pointsofinterest to filter only pharmacies, police and hospitals
     var clManager: CLLocationManager!
     func setUpCoreLocation() {
         mapView.delegate = self
         mapView.pointOfInterestFilter = MKPointOfInterestFilter(including: [.pharmacy, .police, .hospital,])
-        
+    
         clManager = CLLocationManager()
         clManager.requestAlwaysAuthorization()
         clManager.delegate = self
@@ -36,7 +38,7 @@ class AssistanceViewController: UIViewController {
         clManager.startUpdatingLocation()
     }
 }
-//imported mapkit, set up location (done in settings) 
+//set up location (done in settings)
 extension AssistanceViewController: CLLocationManagerDelegate {
     func locationManager(
         _ manager: CLLocationManager,
@@ -54,4 +56,4 @@ extension AssistanceViewController: CLLocationManagerDelegate {
 }
 
 extension AssistanceViewController: MKMapViewDelegate { }
-
+//(Done in project settings) had app request permission to use location on info tab (privacy)
